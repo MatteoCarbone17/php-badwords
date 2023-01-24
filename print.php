@@ -8,3 +8,6 @@ echo $_GET['testo'];
 echo $_GET['password'];
 ?>
 
+<h1>
+    prova print 
+</h1>
