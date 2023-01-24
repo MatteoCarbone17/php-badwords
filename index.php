@@ -12,7 +12,7 @@
     <main>
         <form action="./print.php" method="GET">
             <input type="text" name="testo" placeholder="insert text">
-            <input type="text" name="password" placeholder="password hidden">
+            <input type="text" name="hiddenText" placeholder="word hidden 'js '  "> 
             <button type="submit">Start</button>
         </form>
     </main>

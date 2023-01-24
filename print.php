@@ -1,13 +1,15 @@
+
 <p>
 <?php
-echo $_GET['testo'];
+echo $_GET['testo']; 
+?>
+lunghezza testo :
+<?php
+echo strlen($_GET['testo']);
 ?>
 </p>
 
 <?php
-echo $_GET['password'];
-?>
+echo  str_ireplace( 'js','***',$_GET['hiddenText'] );
 
-<h1>
-    prova print 
-</h1>
+?>
