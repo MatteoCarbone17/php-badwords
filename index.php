@@ -12,6 +12,9 @@
     <main>
         <form action="./print.php" method="GET">
             <input type="text" name="testo" placeholder="insert text">
+            <p>
+                parola nascosta 'java'
+            </p>
             <button type="submit">Start</button>
         </form>
     </main>
