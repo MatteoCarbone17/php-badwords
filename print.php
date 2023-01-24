@@ -8,11 +8,14 @@
     ?>
 </p>
 <?php
-echo  str_ireplace('js', '***', $_GET['hiddenText']);
+
+$stringaNascosta =  $_GET['testo'];
+echo str_ireplace( $_GET['testo'] , '***', $stringaNascosta);
+
 ?>
 <span>
-    lunghezza testo con hidden word :
+    lunghezza hidden words :
 </span>
 <?php
-echo strlen($_GET['hiddenText']);
+echo strlen($stringaNascosta);
 ?>
