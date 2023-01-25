@@ -11,11 +11,9 @@
 <body>
     <main>
         <form action="./print.php" method="GET">
-            <input type="text" name="testo" placeholder="insert text">
-            <p>
-                parola nascosta 'java'
-            </p>
-            <button type="submit">Start</button>
+          <textarea name="testo"  cols="30" rows="10"></textarea>
+          <input type="text" name="hiddenword" >
+          <button type="submit">Invia </button>
         </form>
     </main>
 </body>

@@ -1,3 +1,6 @@
+<h3>
+    Paragrafo originale 
+</h3>
 <p>
     testo inserito:
     <?php
@@ -12,17 +15,23 @@
 
 </p>
 
+<h3>
+   Paragrafo con parola oscurata 
+</h3>
+
+<?php  $hiddenPara = str_ireplace($_GET['hiddenword'], '***' ,  $_GET['testo']) ;  ?>
+
+
 <p>
     testo nascosto inserito:
     <?php
-    $stringaNascosta =  $_GET['testo'];
-    echo str_ireplace('java', '***', $stringaNascosta);
+    echo  $hiddenPara;
     ?>
 </p>
 <p>
     lunghezza testo :
     <?php
-    echo strlen($stringaNascosta);
+    echo strlen($hiddenPara);
     ?>
 
 </p>
